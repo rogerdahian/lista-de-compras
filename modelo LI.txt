@@ -1,0 +1,11 @@
+<li class="lista">
+
+        <div class="checkbox-image"></div>
+
+        <input class="input-checkbox" type="checkbox" name="" id="">
+
+        <p class="lista-compras"></p>
+
+        <button class="botao-excluir"><img src="assets/icons/Frame-3.svg  " alt=""></button>
+        
+      </li>

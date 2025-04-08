@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <header>
+    <img src="./assets/logo.png" alt="">
+  </header>
+  
+  <main>
+    <div class="arrow-voltar">
+      <img src="assets/icons/arrow-left.svg" alt="">
+      <span>Voltar</span>
+    </div>
+    <div class="h1">
+      <h1>Compras da semana</h1>
+    </div>
+
+    <div class="input-text">
+      <input id="inputCompras" type="text" placeholder="Adicione um novo item">
+      <button onclick="compraAdd()" class="btn-add-item">Adicionar item</button>
+    </div>
+    <ul id="listaCompras">
+     
+      <!-- <li class="lista">
+
+        <div id="checkboxImage" >
+
+          <input type="checkbox" name="" id="inputCheckbox">
+
+        </div>
+
+        <p id="compraAdicionada"></p>
+
+        <button id="botaoExcluir"></button>
+        
+      </li>   -->
+    </ul>
+    <div>
+      <p id="mensagem"></p>
+    </div>
+  </main>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>

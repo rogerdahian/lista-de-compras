@@ -1,0 +1,63 @@
+main{
+  ul{
+    li{
+      background-color: var(--background-secondary);
+      width: 500px;
+      border: 1px solid var(--border-primary);
+      display: flex;
+      align-items: center;
+
+      padding: 12px;
+      border-radius: 8px;
+      margin-block: 8px;
+
+      color: var(--content-secondary);
+      font: var(--paragraph);
+
+      
+
+      div{
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background: url(../assets/icons/select.svg);
+        margin-right: 10px;
+        
+          
+        input{
+        opacity:0;
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+        z-index: 1;
+        }
+       &:has(:checked) {
+        background: url(../assets/icons/selected.svg);
+        background-repeat: no-repeat;
+      }
+    }
+      p{
+        margin-right: auto;
+        color: var(--content-secondary);
+        font: var(--paragraph);
+      } 
+      
+      button{
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: var(--background-secondary);
+        background-image: url(../assets/icons/Frame-3.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        z-index: 1;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    
+  }
+  
+}
